@@ -33,7 +33,7 @@ s.find() = Geeft het eerste gevonden item weer
 s.lower = Geeft een resultaat in kleine letters terug
 s.replace(old, new) = Geeft een resultaat waar alle oude voorvallen worden vervangen met nieuwe.
 
-s.split(sep) returns a list of substrings of s, delimited by sep????
+s.split(sep) returns a list of substrings of s, delimited by seperator
 
 s.strip returns copy of s without leading and trailing whitespace
 

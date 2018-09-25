@@ -1,0 +1,14 @@
+#Vraagt leeftijd en of hij/zij een paspoort heeft?
+
+Leeftijd = int(input("Voer je leeftijd in: "))
+Paspoort = input("Heb je een nederlands paspoort? (Ja/Nee)")
+
+if Leeftijd >= 18 and Paspoort == 'Ja':
+    Leeftijd = True
+    print('Gefeliciteerd, je mag stemmen!')
+
+elif Leeftijd <= 18 or Paspoort == 'Nee':
+    print('Helaas nog even wachten of vraag je paspoort aan!')
+
+#elif Leeftijd <= 18 or Paspoort == 'Nee':
+
